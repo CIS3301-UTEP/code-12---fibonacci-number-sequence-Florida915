@@ -1,8 +1,22 @@
+
 def get_fibonacci_number(position):
-    pass #Remove this line and insert your code here. Do not forget this function implements recursion.
+    pass
+
+
+
+
 
 def get_fibonacci_number_sequence(number):
-    pass #Remove this line and insert your code here. Do not forget to use get_fibonacci_number to create your list of numbers.
+    pass
+    if number==1 or number== 2:
+        return 1
+    elif number==0:
+        return 0
+    else:
+        return fibonacci_number(number-2)+fibonacci_number(number-1)
+number = 3
+fibonacci_number=1,1,2,3,5,8,13
+
 
 if __name__ == "__main__":
-    pass #Remove this line and insert your code to test your Fibonacci function here
+    print(get_fibonacci_number_sequence)
