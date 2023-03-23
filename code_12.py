@@ -30,5 +30,5 @@ def get_fibonacci_number_sequence(number):
 list=[1,1,2,3,5,8,13]
 
 if __name__ == "__main__":
-    print(get_fibonacci_number(6))
-    print(get_fibonacci_number_sequence(8))
+    print(get_fibonacci_number(3))
+    print(get_fibonacci_number_sequence(7))
